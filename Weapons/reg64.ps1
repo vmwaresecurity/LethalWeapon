@@ -1,4 +1,4 @@
-# Weapon-01
+# Weapon-02
 
 mkdir C:\ProgramData\.temp
 [Net.ServicePointManager]::SecurityProtocol = 'tls12, tls11, tls'
