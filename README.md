@@ -1,3 +1,3 @@
 # LethalWeapon
-Just a Lethal Weapon ...
+
 <img src="Weapons/LethalWeapon.png">
