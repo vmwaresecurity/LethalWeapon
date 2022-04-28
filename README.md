@@ -1,3 +1,3 @@
 # LethalWeapon
-Testing ...
+
 <img src="Weapons/LethalWeapon.png">
